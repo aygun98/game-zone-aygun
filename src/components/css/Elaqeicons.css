@@ -1,0 +1,23 @@
+.fixed-icons{
+position: fixed;
+right: 20px;
+bottom: 50px;
+display: none;
+}
+.icon-contain{
+    display: block;
+    width: 40px ;
+    height: 40px;
+    margin: 10px 0;
+    /* background-color: aqua; */
+}
+.icon-contain img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media (max-width:991px) {
+   .fixed-icons{
+  display: block;
+   }
+}

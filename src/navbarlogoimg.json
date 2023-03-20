@@ -1,0 +1,43 @@
+[
+   {
+    "to" :"/call",
+    "oyunadi": "Call Of Duty Warzone 2.0",
+    "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312169/call_btnkdo.jpg"
+   },
+   {
+     "to" :"/counter",
+    "oyunadi": "Counter Strike Global Oftensive",
+    "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312169/counter_sbqtjq.png"
+   },
+   {
+    "to" :"/dota",
+    "oyunadi": "Dota 2",
+    "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312168/Dota-2_r3pwee.jpg"
+   },
+   {
+    "to" :"/euro",
+    "oyunadi": "Euro Truck Simulator 2",
+    "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312167/euro_tg6rut.jpg"
+   },
+   {
+    "to" :"/fortnite",
+    "oyunadi": "Fortnite",
+    "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312167/fortnite_ht6zf8.jpg"
+   },
+   {
+    "to" :"/forze",
+    "oyunadi": "Forza Horizona 5",
+    "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312168/Forza_qzjdys.jpg"
+   },
+   {
+    "to" :"/gta",
+    "oyunadi": "GTA 5",
+    "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312167/gta_xpaehp.png"
+   },
+   {
+    "to" :"/legue",
+    "oyunadi": "Legue of Legends",
+    "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312169/legue_zfp8vi.jpg"
+   }
+   
+]

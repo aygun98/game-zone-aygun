@@ -1,0 +1,26 @@
+[
+    { "id":1,
+        "shekil" : "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1678537721/COD_Warzone_2_a8romd.webp"
+    },
+    {
+        "id":2,
+        "shekil": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1678534870/apexseries_fi6xj0.png"
+    },
+    {
+        "id":4,
+        "shekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1678354170/counter_q0w0af.png"
+    },
+    {
+        "id":5,
+        "shekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1678538684/35884_oe5ha8.jpg"
+    },
+    {
+        "id":6,
+        "shekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1678539939/18br-lineup-social-social-1920x1080-98b108d7ddfb_nnnj_xjg9w2.jpg"
+    },
+    {
+        "id":7,
+        "shekil":"https://res.cloudinary.com/dqhoi1bfi/image/upload/v1678541729/capsule_616x353_jnzdco.jpg"
+    }
+   
+]

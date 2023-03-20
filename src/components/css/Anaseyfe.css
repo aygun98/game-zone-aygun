@@ -1,0 +1,199 @@
+.anaseyfe-img{
+    /* background-color: aqua; */
+    position: relative;
+    width: 100%;
+    /* background-image: url(../../img/anaseyfe/sari-sekil.jpg); */
+    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679308422/sari-sekil_wdlp4f.jpg);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+
+    height: 625px;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 80px;
+    padding-bottom: 110px;
+
+}
+.backgroun-anaseyfe{
+    /* background-image: url(../../img/klub\ sekilleri/dark-back.jpg); */
+    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679308366/dark-back_hebyyk.jpg);
+    /* background-image: url(../../img/bodybackround/hereketli.svg); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-contain{
+    /* background-color: aquamarine; */
+    z-index: 8;
+    width: 100%;
+    /* height: 100%; */
+    display: inline-block;
+}
+.anaseyfe-img::after{
+ content: '';
+ position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+ background-color: rgba(0, 0, 0, 0.055)
+}
+.text-contain h1{
+    font-size: 80px;
+    color: #fff;
+    
+    letter-spacing: 2px;
+   /* line-height: 70px; */
+   z-index: 1;
+}
+.text-contain h6{
+    color: #FEE81C;
+    z-index: 1;
+   
+}
+
+/* alt yazi ve sekiller */
+/* swiper */
+
+/* .anaseyfe-text-img img{
+    width: 100%;
+    height: 100%;
+    
+    } */
+.anaseyfe-text-img{
+    width: 383px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+}
+.anaseyfe-text-img:hover::after{
+    content: 'GAME ZONE';
+    color: #fcfc00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    position: absolute;
+    background-color: rgba(105, 105, 105, 0.329);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    /* width: 100%; */
+
+}
+
+.anaseyfe-text-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* .anaseyfe-sekil-contains{
+    display: flex;
+    justify-content: space-between;
+} */
+.swiper-container{
+    /* background-color: #fcfc00; */
+    border-radius: 10px;
+}
+.section-anaseyfe{
+    padding: 50px;
+}
+
+/* iconlar */
+.icon-section-icon{
+    color: yellow;
+    font-size: 50px;
+   padding: 0 78px;
+   /* background-color: blue; */
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 30px;
+   
+}
+.icon-section{
+    display: flex;
+    justify-content: center;
+    /* gap: 150px; */
+    padding: 100px;
+    align-items: center;
+    /* background-color: aqua; */
+    padding-bottom: 200px;
+}
+.icon-section h6{
+    align-items: center;
+    color: #fff;
+}
+.icon-xett{
+    border-right: 1px solid yellow;
+    border-left: 1px solid yellow;
+}
+/* .icon-section-daxili{
+
+} */
+
+/* media */
+@media (max-width:798px){
+    .anaseyfe-img{
+     padding:110px 0 ;
+    }
+    .text-contain{
+/* margin: 0 auto; */
+     text-align: center;
+    }
+    .text-contain h1{
+         text-indent: 20px;
+        font-size: 60px;
+        color: #fff;
+        /* margin: 0 auto; */
+        letter-spacing: 2px;
+       /* line-height: 70px; */
+       z-index: 1;
+    }
+    .text-contain h6{
+        color: #FEE81C;
+        z-index: 1;
+        /* margin: 0 auto; */
+       
+    }
+}
+
+/* @media (max-width:1216px){
+   
+   .anaseyfe-text-img{
+    
+    width: 400px;
+    
+   }
+}
+@media (max-width:1032px){
+   
+    .anaseyfe-text-img{
+     margin: 0 auto !important;
+     width: 100% !important;
+     
+    }
+ } */
+@media (max-width:687px){
+   
+   .icon-section-icon{
+       font-size: 30px;
+       padding: 0 50px;
+   }
+   .icon-section h6{
+    align-items: center;
+    font-size: 10px;
+}
+.section-anaseyfe{
+    padding: 50px;
+}
+ }

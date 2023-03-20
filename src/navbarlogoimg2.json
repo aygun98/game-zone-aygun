@@ -1,0 +1,46 @@
+[
+    {
+        "to" :"/point",
+        "oyunadi": "Point Blank",
+        "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312168/point_rnibit.png"
+       },
+       {
+        "to" :"/rust",
+        "oyunadi": "Rust",
+        "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312168/rust_wqpfhh.webp"
+       },
+       {
+        "to" :"/valorant",
+        "oyunadi": "Valorant",
+        "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312168/valorant_nimhyo.jpg"
+       },
+       {
+        "to" :"/warface",
+        "oyunadi": "Warface",
+        "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312168/Warface_di9spt.jpg"
+       },
+       {
+        "to" :"/world",
+        "oyunadi": "World of Thanks",
+        "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312168/world_rlwuhl.jpg"
+       },
+       {
+        "to" :"/zula",
+        "oyunadi": "Zula",
+        "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312168/zula_zmnwxs.jpg"
+       },
+       {
+        "to" :"/pubg",
+        "oyunadi": "PUBG",
+        "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312169/pbg_qek6tr.jpg"
+       },
+       {
+        "to" :"/apex",
+        "oyunadi": "Apex Legends",
+        "oyunsekli": "https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312167/apex_xalxni.jpg"
+       }
+
+
+
+
+]
