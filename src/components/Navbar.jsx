@@ -7,7 +7,7 @@ import { FaBars } from 'react-icons/fa'
 import { BsInstagram } from 'react-icons/bs'
 import { BsWhatsapp } from 'react-icons/bs'
 import { BsTelegram } from 'react-icons/bs'
-import { GiSpikesInit } from 'react-icons/gi'
+// import { GiSpikesInit } from 'react-icons/gi'
 import { IoMdArrowDropdown } from 'react-icons/io'
 import {GiCrossedSwords} from 'react-icons/gi'
 
@@ -125,9 +125,9 @@ const closeoverlayMenyu = (e) =>{
               </li>
             </ul>
             <div className='elaqe-iconlari'>
-              <span><BsInstagram className='elaqe-icon' /></span>
-              <span><BsWhatsapp className='elaqe-icon' /></span>
-              <span><BsTelegram className='elaqe-icon' /></span>
+              <a href='https://www.instagram.com/internet_klub_gz/' target="_blank"><BsInstagram className='elaqe-icon' /></a>
+              <a href='https:////web.whatsapp.com/' target="_blank"><BsWhatsapp className='elaqe-icon' /></a>
+              <a href='https://web.telegram.org/k/ ' target="_blank"><BsTelegram className='elaqe-icon' /></a>
             </div>
 
 
