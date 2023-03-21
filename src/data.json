@@ -1,0 +1,70 @@
+[
+    {
+        "to" :"/call",
+        "write": "Call Of Duty Warzone 2.0"
+        
+       },
+       {
+         "to" :"/counter",
+        "write": "Counter Strike Global Oftensive"
+        
+       },
+       {
+        "to" :"/dota",
+        "write": "Dota 2"
+       
+       },
+       {
+        "to" :"/euro",
+        "write": "Euro Truck Simulator 2"
+       },
+       {
+        "to" :"/fortnite",
+        "write": "Fortnite"
+       },
+       {
+        "to" :"/forze",
+        "write": "Forza Horizona 5"
+       },
+       {
+        "to" :"/gta",
+        "write": "GTA 5"
+    },
+       {
+        "to" :"/legue",
+        "write": "Legue of Legends"
+       },
+       {
+        "to" :"/point",
+        "write": "Point Blank"
+       },
+       {
+        "to" :"/rust",
+        "write": "Rust"
+       },
+       {
+        "to" :"/valorant",
+        "write": "Valorant"
+       },
+       {
+        "to" :"/warface",
+        "write": "Warface"
+       },
+       {
+        "to" :"/world",
+        "write": "World of Thanks"
+       },
+       {
+        "to" :"/zula",
+        "write": "Zula"
+       },
+       {
+        "to" :"/pubg",
+        "write": "PUBG"
+       },
+       {
+        "to" :"/apex",
+        "write": "Apex Legends"
+       }
+
+]
