@@ -9,7 +9,7 @@ import Anaseyfe from "./components/Anaseyfe";
 import Oyunlar from "./components/Oyunlar";
 import Haqqimizda from "./components/Haqqimizda";
 import Elaqe from "./components/Elaqe";
-import Unvan from "./components/Unvan";
+// import Unvan from "./components/Unvan";
 import NotFound from "./components/NotFound";
 import Elaqeicons from "./components/Elaqeicons";
 //oyun companents
@@ -57,7 +57,7 @@ function App() {
           <Route  path="oyunlar" element={<Oyunlar/>}/>
           <Route  path="haqqimizda" element={<Haqqimizda/>}/>
           <Route  path="elaqe" element={<Elaqe/>}/>
-          <Route  path="unvan" element={<Unvan/>}/>
+          {/* <Route  path="unvan" element={<Unvan/>}/> */}
           
           <Route path='call' element={<Call/>}/>
           <Route path='counter' element={<Counter/>}/>

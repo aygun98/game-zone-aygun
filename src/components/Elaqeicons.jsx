@@ -7,9 +7,9 @@ const Elaqeicons = () => {
   return (
     <div className="fixed-icons">
       {
-        Elaqeiconss.map(icon=>(
+        Elaqeiconss.map(icons=>(
 
-          <a className='icon-contain' href={icon.href} target="_blank"><img src={icon.sekil}/></a>
+          <a className='icon-contain' href={icons.href} target="_blank"><img src={icons.sekil} /></a>
         ))
       }
         {/* <Link className='icon-contain' to=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png"/></Link> 

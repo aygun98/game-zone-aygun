@@ -90,7 +90,7 @@ const Navbar = () => {
           </li>
           <Link className='overlay-navbar-link' to='haqqimizda'>Haqqımızda</Link>
           <Link className='overlay-navbar-link' to='elaqe'>Əlaqə</Link>
-          <Link className='overlay-navbar-link' to='unvan'>Ünvan</Link>
+          {/* <Link className='overlay-navbar-link' to='unvan'>Ünvan</Link> */}
 
         </div>
 
@@ -126,9 +126,9 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="link nav-link tablinks" to='elaqe' >Əlaqe</Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className="link nav-link tablinks" to='unvan' >Unvan</Link>
-              </li>
+              </li> */}
             </ul>
          <Searchinput placeholders="axtar" datalar={Data}/>
            

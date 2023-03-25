@@ -11,6 +11,7 @@ body{
    position: fixed !important;
    z-index: 999 !important;
    top: 0px;
+  
 }
 .fixed{
     /* background-color: rgba(0, 0, 0, 0.836); */
@@ -104,6 +105,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(135,134,23,1) 51%, rgba
     list-style-type: none;
 }
 .ul-dropdown{
+    z-index: 999999;
     /* background-color: #000000dc; */
     background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679308366/dark-back_hebyyk.jpg);
     background-position: center;
