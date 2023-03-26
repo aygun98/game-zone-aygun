@@ -49,8 +49,8 @@ const Anaseyfe = () => {
           <div className='anaseyfe-teqdimat-text col-12 col-md-6'  data-aos="fade-left"   data-aos-duration="2000">
             <span></span>
             <h1>GameZone</h1>
-          <p>Sizə Valorant, Point Blank, Fortnite Apex,  PUBG, Warzone, Dota, GTA, Call of Duty, World of Thanks, ve digər bir cox məhşur oyunu gaming avadanliqlarla oynamaq imaknı verir.
-            Surətli internetlə fasiləsiz heyecan bizim mekanda xidmətinizə verilib. 
+          <p>Sizə Valorant, Point Blank, Fortnite Apex,  PUBG, Warzone, Dota, GTA, Call of Duty, World of Thanks, ve digər bir çox məhşur oyunu gaming avadanlıqlarla oynamaq imaknı verir.
+            Surətli internetlə fasiləsiz həyəcan bizim mekanda xidmətinizə verilib. 
              </p>
              <Link to="haqqimizda"><Button className=''></Button></Link>
              </div>

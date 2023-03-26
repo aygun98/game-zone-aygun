@@ -11,7 +11,7 @@ const Footer = () => {
 
       <div className='footer'>
         <div className='footer-left'>
-        <Link className="logo footer-brand" href="/"><span className='big'>GZ</span>  <span className='smal'>GAME ZONE</span></Link>
+        <Link className="logo footer-brand" to="/"><span className='big'>GZ</span>  <span className='smal'>GAME ZONE</span></Link>
         <div className='unvanlar'>
         <address className='unvanlar-border'>
          <FiMapPin className='unvan-icon'/>  <br />
@@ -38,6 +38,7 @@ const Footer = () => {
           <Link to='oyunlar'>Oyunlar</Link>
           <Link to='haqqimizda'>Haqqimizda</Link>
           <Link to='elaqe'>Əlaqe</Link>
+          </div>
             <div className='footer-elaqe'>
             {
               Elaqeiconss.map(getir => (
@@ -47,7 +48,7 @@ const Footer = () => {
                
 
             </div>
-          </div>
+          
         </div>
       </div>
     </>

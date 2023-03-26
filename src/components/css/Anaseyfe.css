@@ -1,11 +1,11 @@
-.anaseyfe-img{
+.anaseyfe-img {
     /* background-color: aqua; */
     position: relative;
     width: 100%;
     /* background-image: url(../../img/anaseyfe/sari-sekil.jpg); */
     background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679308422/sari-sekil_wdlp4f.jpg);
     background-size: cover;
-    background-position:top;
+    background-position: top;
     background-repeat: no-repeat;
 
     height: 625px;
@@ -17,7 +17,8 @@
     padding-bottom: 110px;
 
 }
-.backgroun-anaseyfe{
+
+.backgroun-anaseyfe {
     /* background-image: url(../../img/klub\ sekilleri/dark-back.jpg); */
     background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679308366/dark-back_hebyyk.jpg);
     /* background-image: url(../../img/bodybackround/hereketli.svg); */
@@ -25,142 +26,160 @@
     background-attachment: fixed;
     background-size: cover;
 }
-.text-contain{
+
+.text-contain {
     /* background-color: aquamarine; */
     z-index: 8;
     width: 100%;
     /* height: 100%; */
     display: inline-block;
 }
-.anaseyfe-img::after{
- content: '';
- position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
- background-color: rgba(0, 0, 0, 0.055)
+
+.anaseyfe-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.055)
 }
-.text-contain h1{
+
+.text-contain h1 {
     font-size: 80px;
     color: #fff;
-    
+
     letter-spacing: 2px;
-   /* line-height: 70px; */
-   z-index: 1;
+    /* line-height: 70px; */
+    z-index: 1;
 }
-.text-contain h6{
+
+.text-contain h6 {
     color: #FEE81C;
     z-index: 1;
-   
+
 }
+
 /* teqdimat */
-.anaseyfe-teqdimat{
+.anaseyfe-teqdimat {
     width: 100%;
     padding: 100px 0 100px 80px;
     /* overflow-x: hidden !important; */
 }
-.anaseyfe-teqdimat-img{
-    
+
+.anaseyfe-teqdimat-img {
+
     width: 546px;
     height: 346px;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
-    
+
     /* overflow-x: hidden !important; */
 }
-.footer-right{
+
+.footer-right {
     padding-right: 70px;
 }
-.anaseyfe-teqdimat-img img{
+
+.anaseyfe-teqdimat-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* border-top-right-radius: 40px;
     border-bottom-left-radius: 40px; */
-    border: 1px solid  rgba(212, 212, 33, 0);
+    border: 1px solid rgba(212, 212, 33, 0);
     animation: borderColor 3s infinite;
 }
-@keyframes borderColor  {
-    0%{
-       border-color: green;
-       
-    }
-    
-    10%{
-       border-color: rgb(0, 9, 128);
+
+@keyframes borderColor {
+    0% {
+        border-color: green;
 
     }
-    
-    20%{
-       border-color: rgb(201, 40, 12);
+
+    10% {
+        border-color: rgb(0, 9, 128);
 
     }
-    30%{
-       border-color: rgb(204, 13, 118);
+
+    20% {
+        border-color: rgb(201, 40, 12);
 
     }
-    40%{
-       border-color: rgb(13, 166, 204);
+
+    30% {
+        border-color: rgb(204, 13, 118);
 
     }
-    50%{
-       border-color: rgb(158, 241, 2);
+
+    40% {
+        border-color: rgb(13, 166, 204);
 
     }
-    60%{
-       border-color: green;
-       
-    }
-    
-    70%{
-       border-color: rgb(0, 9, 128);
+
+    50% {
+        border-color: rgb(158, 241, 2);
 
     }
-    
-    80%{
-       border-color: rgb(201, 40, 12);
+
+    60% {
+        border-color: green;
 
     }
-    90%{
-       border-color: rgb(204, 13, 118);
+
+    70% {
+        border-color: rgb(0, 9, 128);
 
     }
-    100%{
-       border-color: rgb(13, 166, 204);
+
+    80% {
+        border-color: rgb(201, 40, 12);
 
     }
-   
-    
+
+    90% {
+        border-color: rgb(204, 13, 118);
+
+    }
+
+    100% {
+        border-color: rgb(13, 166, 204);
+
+    }
+
+
 }
-.anaseyfe-teqdimat-text{
+
+.anaseyfe-teqdimat-text {
     position: relative;
     color: #fff;
     margin-left: 20px;
     /* overflow-x: hidden !important; */
 }
-.anaseyfe-teqdimat-text h1{
+
+.anaseyfe-teqdimat-text h1 {
     display: inline-block;
     position: absolute;
 }
 
 .anaseyfe-teqdimat-text span {
     /* position: absolute; */
-   margin-right: 6px;
+    margin-right: 6px;
     display: inline-block;
     /* color:#FEE81C */
     background-color: #FEE81C;
     width: 7px;
     height: 40px;
 }
-.anaseyfe-teqdimat-text p{
+
+.anaseyfe-teqdimat-text p {
     letter-spacing: 1px;
     font-size: 23px;
     padding-top: 15px;
     padding-bottom: 45px;
 }
 
-.anaseyfe-text-img{
+.anaseyfe-text-img {
     width: 383px;
     height: 200px;
     border-radius: 10px;
@@ -168,7 +187,8 @@ right: 0;
     position: relative;
     margin: 0 auto;
 }
-.anaseyfe-text-img:hover::after{
+
+.anaseyfe-text-img:hover::after {
     content: 'GAME ZONE';
     color: #fcfc00;
     display: flex;
@@ -183,39 +203,41 @@ right: 0;
     right: 0;
     border-radius: 10px;
     /* width: 100%; */
- 
+
 }
 
-.anaseyfe-text-img img{
+.anaseyfe-text-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.swiper-container{
+.swiper-container {
     /* background-color: #fcfc00; */
     border-radius: 10px;
 }
-.section-anaseyfe{
+
+.section-anaseyfe {
     /* padding: 50px; */
     padding-bottom: 50px;
 }
 
 /* iconlar */
-.icon-section-icon{
+.icon-section-icon {
     color: yellow;
     font-size: 50px;
-   padding: 0 78px;
-   /* background-color: blue; */
-   align-items: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 30px;
-   
+    padding: 0 78px;
+    /* background-color: blue; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
 }
-.icon-section{
+
+.icon-section {
     display: flex;
     justify-content: center;
     /* gap: 150px; */
@@ -225,90 +247,134 @@ right: 0;
     /* padding-bottom: 200px; */
     padding: 150px 0;
 }
-.icon-section h6{
+
+.icon-section h6 {
     align-items: center;
     color: #fff;
 }
-.icon-xett{
+
+.icon-xett {
     border-right: 1px solid yellow;
     border-left: 1px solid yellow;
 }
+
 /* .icon-section-daxili{
 
 } */
 
 /* media */
-@media (max-width:798px){
-    .anaseyfe-img{
-     padding:110px 0 ;
+@media (max-width:798px) {
+    .anaseyfe-img {
+        padding: 110px 0;
     }
-    .text-contain{
-/* margin: 0 auto; */
-     text-align: center;
+
+    .text-contain {
+        /* margin: 0 auto; */
+        text-align: center;
     }
-    .text-contain h1{
-         text-indent: 20px;
+
+    .text-contain h1 {
+        text-indent: 20px;
         font-size: 60px;
         color: #fff;
         /* margin: 0 auto; */
         letter-spacing: 2px;
-       /* line-height: 70px; */
-       z-index: 1;
+        /* line-height: 70px; */
+        z-index: 1;
     }
-    .text-contain h6{
+
+    .text-contain h6 {
         color: #FEE81C;
         z-index: 1;
         /* margin: 0 auto; */
-       
+
     }
 }
 
 
-@media (max-width:687px){
-   
-   .icon-section-icon{
-       font-size: 30px;
-       padding: 0 50px;
-   }
-   .icon-section h6{
-    align-items: center;
-    font-size: 10px;
-}
-.section-anaseyfe{
-    padding: 50px;
-}
- }
-@media (max-width:1184px){
-    .anaseyfe-teqdimat-img{
-    margin: 0 auto;
-    width: 50%;
-    padding:0 30px;
-   
-    /* overflow-x: hidden !important; */
+@media (max-width:687px) {
+
+    .icon-section-icon {
+        font-size: 30px;
+        padding: 0 50px;
     }
-    .anaseyfe-teqdimat-text{
-     margin: 0 auto;
-     width: 100%;
-     padding-top: 50px;
+
+    .icon-section h6 {
+        align-items: center;
+        font-size: 10px;
     }
-  .anaseyfe-teqdimat{
-    /* overflow-x: hidden !important; */
-    width: 100%;
-  }
- }
- @media (max-width:1038px){
-    .anaseyfe-teqdimat-img{
+
+    .section-anaseyfe {
+        padding: 50px;
+    }
+}
+
+@media (max-width:1184px) {
+    .anaseyfe-teqdimat-img {
+        margin: 0 auto;
+        width: 50%;
+        padding: 0 30px;
+
+        /* overflow-x: hidden !important; */
+    }
+
+    .anaseyfe-teqdimat-text {
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .anaseyfe-teqdimat {
+        /* overflow-x: hidden !important; */
+        width: 100%;
+    }
+}
+
+@media (max-width:1038px) {
+    .anaseyfe-teqdimat-img {
         width: 500px;
-       min-width: 360px;
+        min-width: 360px;
         border-radius: 0;
     }
-    .anaseyfe-teqdimat-img img{
+
+    .anaseyfe-teqdimat-img img {
         border-radius: 0;
         object-fit: cover;
     }
- }
- @media (max-width:768px){
-       .anaseyfe-teqdimat{
-        padding:  100px 10px;
-       }
- }
+}
+
+@media (max-width:768px) {
+    .anaseyfe-teqdimat {
+        padding: 100px 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .anaseyfe-teqdimat {
+        padding: 100px 0;
+        width: 100%;
+    }
+
+    .section-anaseyfe {
+        padding: 10px;
+    }
+
+    .anaseyfe-teqdimat-img {
+        width: 100%;
+    }
+
+    .icon-section {
+
+        flex-direction: column;
+    }
+
+    .icon-xett {
+        border-top: 1px solid yellow;
+        border-bottom: 1px solid yellow;
+
+        border-right: 0;
+        border-left: 0;
+        padding: 10px;
+        margin: 5px;
+    }
+}

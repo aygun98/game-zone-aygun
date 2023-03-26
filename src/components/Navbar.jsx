@@ -96,11 +96,9 @@ const Navbar = () => {
 
       </div>
       {/* <marquee>Bütün oyunlar ən güncəl versiyasi ilə yalnız bizdə!!!!!!</marquee> */}
-      <nav className="navbar navbar-expand-lg bg-body-tertiary" data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div className="container-fluid">
-          <Link className="logo navbar-brand" href="/"><span className='big'>GZ</span>  <span className='smal'>GAME ZONE</span></Link>
+          <Link className="logo navbar-brand" to="/"><span className='big'>GZ</span>  <span className='smal'>GAME ZONE</span></Link>
           {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> */}
           <FaBars className='fabars-icon' onClick={openoverlayMenyu} />
           {/* </button> */}

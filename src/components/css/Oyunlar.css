@@ -1,4 +1,47 @@
 
+/* swiper */
+.mySwiper{
+    width: 100vw;
+    height: 100vh;
+}
+.slide1{
+    background-image: url(https://previews.dropbox.com/p/thumb/AB215wshk1QvbhZn96AMPoquxQO4eVwZWJHnomS8o7Ky-tfp_WP6PKNnngK0R4E3plpUktl8X61N1sJuDmxkNfEQws2PG7o2D0MJy5HFFeVqrHmZU9C9OaYPBaXEHEgWvX24xjdejpSpmiQuHXFAQZpAZ4aTjZj_yU9A2kiBZ56w5C3YIhNKRV16Ka-15LbCi-ZqHU9oG1to8oJuS49lX925JFG6T-PIa8oIcOizv1Dhzugv3d-VpQIL7B9hVwktZgcV70wSdbeg63KftrzB_LeFEqFULCejnx20AyRN4_sdUbvDhLbS3JLVUIAIi6LH9DpjyQlPYLzPkAyuyYdYlSDscsn3PTV5JfBEQqanTquRnOF22nIGR0b2-0usVU_zoYe6LlFr58EqFGSJWqnLu3XKf2cE8bf6JGhixl5NENyaFg4Z56CSh5u4muljRaRpaukn4r3Rsd1K_LS-rTZ2XN9BYME70IcEjiOC-u0fCs3gOTBaza7X_UwZa7rKpsByooQdYuEB_lN_At9Dy1lr1BeaizLsQDvvnBAYG92fRchK61V4bL8SthKkOpauo55GuUQT-qQNXTBwsnS99kqXA6YcHgfdNuu3Yasj4-6D5BFTUWHmWAEjV6cY5eGhhVGuG2w/p.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.slide2{
+    background-image: url(https://previews.dropbox.com/p/thumb/AB1l25n3hjqM1WTMqE0qeReQ_a8SjO_9ggh_b1UYmfFlWGm7iQHtXbfck43rrkJnWMjdKWWWiIFO9fhujOTKUfaKw-ewhO1F4hAhDaahBRi62HSXZ78GSJCe0hB57PLtn5ZfATCn3Hi6hAoi2btDprQP8Tg4NAZ8gNURdr2wOvq-5IsDRnRywVB0F6lDCEkonEmmgRqYpktDE4P9ugYFJfI7bl90F0OLaE06Cg5YmfVT6xMjWCB2ZTp0IIWuuJnf_Fx3AeIODEzMa3nq4VcCBEg_Ik76p7BA41A21194KsdnLsQgCLuAabQ7hVSqDiPZc7jmIO7Av3MK8okpTf-g2Rw8osGnb4b12JylfhIeH4on4DmZMVUHemvo5mxwyF9cRawGPvPutkGSqlR8Br4wIQ6N9S2UK3_g8rettLl4L9TgA9sdj_-31QDry0vmiv2bF7FTYe3TOr5l4C_HmqUaavXninGend6VOh-6fqmMwT2zdfnAwPcsSF_s94zFhjFQrlhvc2fELJyZNUvWs6PnUCOeF8IGZ4-UrCE_xpkBWenjcEEWDDkHDbzDWZ_V5YJE6nRbYUMvH2kecMt2K36Pn_1CAQjxzmOqrfTdYHQKNjs469yzZ4KCLYpzVRSKfq-J5bc/p.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide3{
+    background-image: url(https://previews.dropbox.com/p/thumb/AB26LPE04ElyuycuKIP805TcPOtbTyvPHzR9LhDL1Nnn_VBluQsGaPkm_hX-WbQ73KcsD_muBTFo5OocUpd0s2zbZ88IBzlPgMPN6imD9Bs1KzXnCtsovbckToUU5YgaNVQi1SruojjzblSrV54NCml8pvKlM0oEFnrpvads00IduqMYeOnXRkwuKpv9e6_KDsfDsyZ0ZZixDwpsuCCR1B8XSvYpAYzmqoINKh4TgxlpK9cLI8DCTNrjWYcu14XU_Oz82n3ZYargGk8MA1OocmG_4rnbKvhea8VJW-Ly9bvoTL_i714IuPX4SlKGvDfqg8ClnR1ZakRdxWL88a9b6-ih9DYbpFLRXZrt5Qv8fBU5mwBDLbxgxu0-E_YqqHN85dHyDR8Fw8NaMnB5kO4MD-yruTERJ4QFRafvwfkysye9VQJhymLOevkdNxjVIQbKnn5TjI_UfHj9fYoO5ZD38gp_SCoBUBLBteA_7UPOs_5z9njdPRh0P2Y6jP_lE9EsiT3s9w3murXB_Y4AbKT8OmigXR05YvH9tBzDiBHfjA-rm9_Yo4Slu0IfG6YykXlCl5MX9RTCU5yyZKjOeQZSQ5Pp8dr_iqn0NeZdl0Dsd_cei31p2Q_aXpFp-a6kg9zrpyBI4kUghnCDz2Qn2-APSRD9PW846AhVtpdkXfnxkjSuPeSH-w9x_KlNiyVn4PahBmE/p.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide4{
+    background-image: url(https://previews.dropbox.com/p/thumb/AB1n_Y1F4QABXyuLLdTTaJUqmAG-IRXExJZw4avzsaJCyFSevFBX9XhYT7jY0clmZJlTcpXjSJ_xF8zoI1QVkR62Ft0KWYcSYy8W_x-q2jnms0nUXwNuIPb8r1GseN49k9ejDLjxlipsYmRskzYJeL_ryJvPhhJywn2XMimzmZECgxNPH6C--DkHrrDjcaQHhAmU-VApwoIdffW1hfrZormwVXQ5nHNly059nfCEjnAvc99R50haOBkCCOkWODL5k-puB66usf21TASf67ax3fELSb2z16XhbWMX4fNATng46Ai0ZwB66ASo8S7deEiy6sapYxP2J64i9Trhp0_C30MDNb_tTFLFsOWgpvYQi8w1GJ1fMlVk8gKZ_yaZxwjMoSWatKB0vSuYFNJZThaoPFvI06Hm42sID9bDxZU9qMFfOE953RWBqRExRJiQsm4Ft99M9JHmF3NBc5X5Z2UaV8AteX4kNiQiJmlR3cj1_eMyS48llI4phwT5sUmn-z0LjCXYFpWR12P2Z8EJ0KcGeWHh_z8Tkrijxogl0ZhJIKlXuq-FVJFAvofYqSKPrBLffbUvFlb6eO0ERj7zHTu9VNJdvAimuThH5P72WD9WNZUehKTN_EuC1oB42wux_L0sMgwu5f428OgU-OD-SU9-8pEO0Df_UxodcCdiZBYFgkoUMG3td27pGscrHAC2qoj8jRM/p.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* oyun cartlari */
 .card{
     width: 400px;
     color: black;
@@ -16,7 +59,8 @@
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.103);
     border-radius: 20px;
-    padding: 20px 0;
+    padding: 20px 10px;
+   
 }
 .cards-pading{
     padding:  150px ;
@@ -28,16 +72,15 @@
    background-size: cover;
 
 }
-.oyunlar-basliq-sekli{
-    width: 100%;
-    height: 600px;
-    margin-bottom: 50px;
-}
-.oyunlar-basliq-sekli img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 .card-title,.btn-warning{
     color: #fff;
 }
+
+/* media */
+@media (max-width:1000px){
+    .cards-pading{
+        padding: 150px 50px;
+    }
+}
+

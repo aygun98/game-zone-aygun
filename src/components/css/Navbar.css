@@ -11,6 +11,7 @@ body{
    position: fixed !important;
    z-index: 999 !important;
    top: 0px;
+   /* overflow-x: hidden; */
   
 }
 .fixed{
@@ -248,6 +249,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(135,134,23,1) 51%, rgba
 @media (max-width:768px){
     .navbar-expand-lg{
         padding: 0 30px;
+        /* overflow-x: hidden; */
     }
 
 }

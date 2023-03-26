@@ -17,6 +17,7 @@ body{
    background-size: cover;
    background-position: center;
    background-attachment: fixed; */
+   /* overflow-x: hidden; */
 }
 .pading{
   padding:  0 100px;
