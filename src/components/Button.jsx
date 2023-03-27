@@ -1,10 +1,10 @@
 import React from 'react'
 import './css/Button.css'
 
-const Button = () => {
+const Button = ({klas, icindekiyazi}) => {
   return (
    <>
-   <button className='button'>Daha etrafli</button>
+   <button className={klas}>{icindekiyazi}</button>
    </>
   )
 }

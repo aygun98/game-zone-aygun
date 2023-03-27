@@ -84,8 +84,12 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(135,134,23,1) 51%, rgba
     display: none;
     cursor: pointer;
     /* z-index: 9; */
+    transition: transform 1s ease;
 }
-
+.fabars-icon:hover{
+    /* transform: scale(1.1); */
+    transform: rotate(180deg);
+}
 
 .elaqe-icon{
     color: #ffffff;
@@ -214,8 +218,11 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(135,134,23,1) 51%, rgba
     font-size: 22px;
     cursor: pointer;
     /* z-index: 19; */
+    transition:  transform 1s ease;
 }
-
+.cross-icon:hover{
+    transform: rotate(180deg);
+}
 
 
 

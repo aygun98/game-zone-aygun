@@ -1,0 +1,53 @@
+.oyun-props-container{
+    padding: 150px 90px 0;
+   
+}
+
+.oyun-props-sxem{
+    
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+.oyun-props-sxem-left-right{
+    display: flex;
+    padding: 100px 0;
+    color: white;
+    gap: 50px;
+
+}
+.oyun-props-sxem-left-right p{
+    font-size: 23px;
+}
+.oyun-props-sxem-left{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 200px;
+    padding: 0;
+
+}
+/* .oyun-props-sxem-left img{
+    width: 100%;
+    height: 100%;
+} */
+.oyun-props-sxem-right{
+
+    width: 50%;
+}
+
+/* swiper */
+.mySwiper-oyunprops-slides{
+    padding: 100px 0 200px;
+}
+.oyunporps-swiperslide{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}

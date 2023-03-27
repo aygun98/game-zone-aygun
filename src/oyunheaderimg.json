@@ -1,21 +1,21 @@
 [
     {       
-        "klass" : "slide1",
+        "klass" : "slide1 oyunlar-slide-text",
          "sloqan": "ƏN SEVİLƏN OYUNLAR"
        
     },
     {
-        "klass" : "slide2",
+        "klass" : "slide2 oyunlar-slide-text",
         "sloqan": "COMFORT MƏKAN"
        
     },
     {
-        "klass" : "slide3",
+        "klass" : "slide3 oyunlar-slide-text",
         "sloqan": "FASİLƏSİZ OYUN "
        
     },
     {
-        "klass" : "slide4",
-        "sloqan": "SƏNDƏ GAMEZONA GƏL"
+        "klass" : "slide4 oyunlar-slide-text",
+        "sloqan": "YÜKSƏK ADRENALİN"
     }
 ]

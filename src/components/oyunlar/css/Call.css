@@ -1,0 +1,23 @@
+.call-container{
+    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679308366/dark-back_hebyyk.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.callheaderimg{
+    background-image:url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1678537721/COD_Warzone_2_a8romd.webp);
+}
+
+
+
+
+.callleftimg{
+    background-image: url(	https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679921285/wz2-s2-resurgence-desktop_btzh3q.jpg);
+}
+.callrightimg{
+    background-image: url(https://res.cloudinary.com/dqhoi1bfi/image/upload/v1679312169/counter_sbqtjq.png);
+}

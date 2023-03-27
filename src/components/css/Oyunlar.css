@@ -1,6 +1,6 @@
 
 /* swiper */
-.mySwiper{
+.mySwiper-oyunlar{
     width: 100vw;
     height: 100vh;
 }
@@ -30,6 +30,31 @@ background-size: cover;
 }
 
 
+.swiperslide-h1{
+    color: #eeff06;
+    font-size: 100px;
+    /* font-weight: bold; */
+    padding-top: 100px;
+    z-index: 1;
+    text-decoration: underline;
+}
+
+.oyunlar-slide-text{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   /* padding-left: 250px; */
+  
+}
+.oyunlar-slide-text::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.637);
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
 
 
@@ -82,5 +107,17 @@ background-size: cover;
     .cards-pading{
         padding: 150px 50px;
     }
+}
+@media (max-width:1016px){
+    .swiperslide-h1{
+        font-size: 70px;
+    }
+
+}
+@media (max-width:700px){
+    .swiperslide-h1{
+        font-size: 40px;
+    }
+
 }
 

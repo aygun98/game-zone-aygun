@@ -28,7 +28,7 @@ const Oyunlar = () => {
 
           navigation={true}
           modules={[Parallax, Autoplay]}
-          className="mySwiper"
+          className="mySwiper-oyunlar"
         >
           <div
             slot="container-start"

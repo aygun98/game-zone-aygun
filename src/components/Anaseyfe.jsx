@@ -45,14 +45,14 @@ const Anaseyfe = () => {
 
           </div>
          <div className='anaseyfe-teqdimat row'>
-          <div className='anaseyfe-teqdimat-img col-12 col-md-6' data-aos="fade-right"   data-aos-duration="2000">{Teqdimat.map(sekill => (<img src={sekill.anaseyfe_teqdimat_img}  />))}</div>
-          <div className='anaseyfe-teqdimat-text col-12 col-md-6'  data-aos="fade-left"   data-aos-duration="2000">
+          <div className='anaseyfe-teqdimat-img col-12 col-md-6' data-aos="fade-right" data-aos-delay="800"  data-aos-duration="5000">{Teqdimat.map(sekill => (<img src={sekill.anaseyfe_teqdimat_img}  />))}</div>
+          <div className='anaseyfe-teqdimat-text col-12 col-md-6'  data-aos="fade-left" data-aos-delay="800"  data-aos-duration="5000">
             <span></span>
             <h1>GameZone</h1>
           <p>Sizə Valorant, Point Blank, Fortnite Apex,  PUBG, Warzone, Dota, GTA, Call of Duty, World of Thanks, ve digər bir çox məhşur oyunu gaming avadanlıqlarla oynamaq imaknı verir.
             Surətli internetlə fasiləsiz həyəcan bizim mekanda xidmətinizə verilib. 
              </p>
-             <Link to="haqqimizda"><Button className=''></Button></Link>
+             <Link className='anaseyfe-teqdimat-button' to="haqqimizda"><Button klas="anaseyfe-teqdimat-button button" icindekiyazi='Daha Ətraflı'></Button></Link>
              </div>
          </div>
 
@@ -96,7 +96,7 @@ const Anaseyfe = () => {
 
               {
                 Shekiller.map(shekil=>(
-                  <SwiperSlide className='swiper-container'><div className="anaseyfe-text-img "><img src={shekil.shekil} alt="" /></div></SwiperSlide>
+                  <SwiperSlide className='swiper-container-anaseyfe'><div className="anaseyfe-text-img "><img src={shekil.shekil} alt="" /></div></SwiperSlide>
 
                 ))
               }

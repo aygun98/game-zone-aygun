@@ -64,6 +64,7 @@
 .anaseyfe-teqdimat {
     width: 100%;
     padding: 100px 0 100px 80px;
+    margin: 0;
     /* overflow-x: hidden !important; */
 }
 
@@ -77,9 +78,9 @@
     /* overflow-x: hidden !important; */
 }
 
-.footer-right {
+/* .footer-right {
     padding-right: 70px;
-}
+} */
 
 .anaseyfe-teqdimat-img img {
     width: 100%;
@@ -167,7 +168,7 @@
     margin-right: 6px;
     display: inline-block;
     /* color:#FEE81C */
-    background-color: #FEE81C;
+    background-color: #f1f501;
     width: 7px;
     height: 40px;
 }
@@ -178,6 +179,12 @@
     padding-top: 15px;
     padding-bottom: 45px;
 }
+
+.anaseyfe-teqdimat-button:hover{
+    background-color: #000000;
+    color: #eeff00;
+}
+/*  */
 
 .anaseyfe-text-img {
     width: 383px;
@@ -213,7 +220,7 @@
     border-radius: 10px;
 }
 
-.swiper-container {
+.swiper-container-anaseyfe {
     /* background-color: #fcfc00; */
     border-radius: 10px;
 }
@@ -291,6 +298,11 @@
     }
 }
 
+@media (max-width:798px){
+    .text-contain h1{
+        font-size: 40px;
+    }
+}
 
 @media (max-width:687px) {
 
@@ -304,16 +316,22 @@
         font-size: 10px;
     }
 
-    .section-anaseyfe {
-        padding: 50px;
-    }
+    /* .section-anaseyfe {
+     
+    } */
 }
+@media (max-width:1245px)  and (min-width:1229px){
+    .anaseyfe-teqdimat-text p{
+        margin-bottom: 0;
+        padding-bottom: 26px;
+    }
 
-@media (max-width:1184px) {
+}
+@media (max-width:1228px) {
     .anaseyfe-teqdimat-img {
         margin: 0 auto;
         width: 50%;
-        padding: 0 30px;
+        /* padding: 0 30px; */
 
         /* overflow-x: hidden !important; */
     }
@@ -322,6 +340,7 @@
         margin: 0 auto;
         width: 100%;
         padding-top: 50px;
+        padding-right: 20px;
     }
 
     .anaseyfe-teqdimat {
@@ -345,7 +364,13 @@
 
 @media (max-width:768px) {
     .anaseyfe-teqdimat {
-        padding: 100px 10px;
+        padding: 100px 0;
+    }
+    .anaseyfe-teqdimat-img{
+        margin: 0 auto;
+    }
+    .section-anaseyfe{
+        padding: 0 20px;
     }
 }
 
@@ -356,12 +381,16 @@
     }
 
     .section-anaseyfe {
-        padding: 10px;
+        padding: 20px;
     }
 
     .anaseyfe-teqdimat-img {
-        width: 100%;
+       min-width: 250px !important;
+        /* padding-right: 10px */
     }
+    /* .anaseyfe-teqdimat-img img{
+        width: 100%;
+    } */
 
     .icon-section {
 
